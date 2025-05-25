@@ -659,6 +659,414 @@
     },
     "answer": "b"
   }
-
-
+,{
+    "question": "What is a process in an operating system?",
+    "options": {
+      "a": "A program in execution",
+      "b": "An application in development", 
+      "c": "A file on disk",
+      "d": "A device driver"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a primary function of an operating system?",
+    "options": {
+      "a": "Web browsing",
+      "b": "Resource management",
+      "c": "Video editing",
+      "d": "Database design"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": {
+      "a": "Central Processing Unit",
+      "b": "Computer Processing Unit",
+      "c": "Central Program Unit",
+      "d": "Computer Program Unit"
+    },
+    "answer": "a"
+  }
+, {
+    "question": "The main function of the command interpreter is ____",
+    "options": {
+      "a": "To get an execute the next user-specified command",
+      "b": "To handle the files in operating system",
+      "c": "None of the mentioned",
+      "d": "To provide the interface between the API and application program"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Why is the Software interrupt required by the processor?",
+    "options": {
+      "a": "Test the interrupt system of the processor",
+      "b": "Implement co-routines",
+      "c": "Return from subroutine",
+      "d": "Obtain system services, which need execution of privileged instruction"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "How much time will spend when LRU replaces the page?",
+    "options": {
+      "a": "shortest time in memory without being referenced",
+      "b": "longest time in memory",
+      "c": "shortest time in memory",
+      "d": "longest time in memory without being referenced"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the base register?",
+    "options": {
+      "a": "The smallest unit of ROM",
+      "b": "The smallest unit of RAM",
+      "c": "The base address of storage devices",
+      "d": "The base address of the instruction"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which is statement about the data segment is true?",
+    "options": {
+      "a": "The data segment can only use a half",
+      "b": "Only the unused words of the segment can be used for sharing with other users",
+      "c": "Specific words B",
+      "d": "The data segment can not growth"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The state of a process is defined by ____",
+    "options": {
+      "a": "the final activity of the process",
+      "b": "the activity just executed by the process",
+      "c": "the activity to next be executed by the process",
+      "d": "the current activity of the process"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "In a timeshare operating system, when the time slot given to a process is completed, the process goes from the running state to the ____",
+    "options": {
+      "a": "Blocked state",
+      "b": "Ready state",
+      "c": "Suspended state",
+      "d": "Terminated state"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "A set of processes is deadlock if ____",
+    "options": {
+      "a": "each process is blocked and will remain so forever",
+      "b": "each process is terminated",
+      "c": "all processes are trying to kill each other",
+      "d": "none of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the best description of deadlock avoidance?",
+    "options": {
+      "a": "do not allow processes to request resources that could lead to deadlock",
+      "b": "do not allow processes to request resources",
+      "c": "make sure processes never have to wait for a resource for more than 2 seconds",
+      "d": "make sure processes eventually give up on waiting for a resource if they do not get it in less than 3 seconds"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "For the following deadlock detection algorithm, which of the following is true?",
+    "options": {
+      "a": "The algorithm is O(mn)",
+      "b": "The algorithm is O(m^2*n^2)",
+      "c": "The algorithm is O(m*n^2)",
+      "d": "None of the above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "A computer system has 6 tape drives, with n processes competing for them. Each process may need at most 2 tape drives. What is the maximum value of n for the system to be deadlock free?",
+    "options": {
+      "a": "6",
+      "b": "5",
+      "c": "4",
+      "d": "3"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The definition of ______ is ______",
+    "options": {
+      "a": "deadlock",
+      "b": "starvation",
+      "c": "aging",
+      "d": "busy-wait"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "_______ is a phenomenon in operating systems whereby a process is continually denied necessary resources to complete its work.",
+    "options": {
+      "a": "Deadlock",
+      "b": "Livelock",
+      "c": "Starvation",
+      "d": "Aging"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "In a paging system, which access to the memory ____",
+    "options": {
+      "a": "is faster",
+      "b": "is slower",
+      "c": "has the same speed",
+      "d": "depends on the specific case"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "What is the page size if the virtual address is 16 bits and the page number is 6 bits?",
+    "options": {
+      "a": "1 KB",
+      "b": "4 KB",
+      "c": "64 KB",
+      "d": "1 MB"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "_______ in the memory management is achieved through a technique called ______",
+    "options": {
+      "a": "Abstraction",
+      "b": "Virtualization",
+      "c": "Indirection",
+      "d": "Redirection"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "In paging the physical address space of a process ____",
+    "options": {
+      "a": "is always larger",
+      "b": "is always smaller",
+      "c": "need not be contiguous",
+      "d": "must be contiguous"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the problem of mapping from virtual to physical memory?",
+    "options": {
+      "a": "Conversion is easy but slow",
+      "b": "Simple conversion",
+      "c": "Conversion is hard and slow",
+      "d": "Conversion is hard and fast"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is the condition that must be satisfied?",
+    "options": {
+      "a": "Mutual Exclusion",
+      "b": "Hold and wait",
+      "c": "No preemption",
+      "d": "Circular wait"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the following difference between trap and system call?",
+    "options": {
+      "a": "Trap runs in kernel mode, system call runs in user mode",
+      "b": "Trap is faster than system call",
+      "c": "System call can occur anywhere, trap cannot",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Context switch time is ____",
+    "options": {
+      "a": "User time",
+      "b": "System time",
+      "c": "A part of system time",
+      "d": "Neither user time nor system time"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What are the Operating system services?",
+    "options": {
+      "a": "User interface",
+      "b": "Program execution",
+      "c": "File system manipulation",
+      "d": "All of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "In which level of abstraction kernel controls the ____",
+    "options": {
+      "a": "User processes",
+      "b": "System processes",
+      "c": "Both user and system processes",
+      "d": "Neither user nor system processes"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Using Mutex (Mutual Exclusion), Multiple thread accessing shared data are kept 'Synchronous' with each other. This Synchronization takes place at the ____",
+    "options": {
+      "a": "Kernel level",
+      "b": "Process level",
+      "c": "Thread level",
+      "d": "Instruction level"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Semaphore approach synchronizes primitive operations with ____",
+    "options": {
+      "a": "machine dependent",
+      "b": "machine independent",
+      "c": "machine specific",
+      "d": "system specific"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The ______ is shared by all the processes in the system",
+    "options": {
+      "a": "program counter",
+      "b": "address space",
+      "c": "next instruction to be executed",
+      "d": "none of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is the following order in the context of the scheduling? (a processes ready state to running state)",
+    "options": {
+      "a": "Dispatch, CPU Overhead, Process execution, Process completion/Event completion, Interrupt",
+      "b": "Interrupt, CPU Overhead, Process execution, Process completion, Process state",
+      "c": "Dispatch, CPU Overhead, Process execution, Interrupt, Process state",
+      "d": "Interrupt, Dispatch, Process execution, CPU Overhead, Process completion"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "How long is the time quantum in round robin scheduling?",
+    "options": {
+      "a": "must be small",
+      "b": "must be large",
+      "c": "must be small with respect to context switch time",
+      "d": "must be large with respect to context switch time"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "an SJF (shortest-job-first) algorithm is ____",
+    "options": {
+      "a": "optimum",
+      "b": "not optimum",
+      "c": "sometimes optimum",
+      "d": "never optimum"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is not correct about the characteristics?",
+    "options": {
+      "a": "CPU utilization - keep the CPU busy",
+      "b": "Throughput - number of processes completed per time unit",
+      "c": "Turnaround time - amount of time to execute a particular process from submission time to completion time",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The total of pages loaded on the memory is called ____",
+    "options": {
+      "a": "CPU utilization",
+      "b": "Throughput",
+      "c": "Turnaround time",
+      "d": "None of the above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "What is a core function of the operating system?",
+    "options": {
+      "a": "Provides the user interface and manages hardware resources",
+      "b": "Supports file and network communication and manages hardware resources",
+      "c": "Provides file and manages hardware resources",
+      "d": "None of the above"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "The end of process help a process to come ____",
+    "options": {
+      "a": "to ready state",
+      "b": "to suspend state",
+      "c": "to terminate",
+      "d": "depends on the specific case"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a real-time function of the operating system?",
+    "options": {
+      "a": "Support for multimedia",
+      "b": "Batch input and output",
+      "c": "Support for small memory",
+      "d": "Support for large memory"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The end of interrupt for a process to complete a process ____",
+    "options": {
+      "a": "Preempting task",
+      "b": "Round robin",
+      "c": "Priority task",
+      "d": "All above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is the difference between short-term, medium-term, and long-term schedulers?",
+    "options": {
+      "a": "Short-term schedules which process will get the CPU, medium-term handles swapping, long-term selects processes from job queue",
+      "b": "Short-term handles swapping, medium-term selects processes from job queue, long-term schedules which process will get the CPU",
+      "c": "Short-term selects processes from job queue, medium-term schedules which process will get the CPU, long-term handles swapping",
+      "d": "All are the same"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "A set of processes is deadlock if ____",
+    "options": {
+      "a": "each process is blocked and will remain so forever",
+      "b": "all processes are trying to kill each other",
+      "c": "each process is terminated",
+      "d": "none of the above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which testing method is used to test for load balancing?",
+    "options": {
+      "a": "black box testing",
+      "b": "gray box testing",
+      "c": "white box testing",
+      "d": "all of the above"
+    },
+    "answer": "d"
+  }
 ]

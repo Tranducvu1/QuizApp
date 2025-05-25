@@ -98,5 +98,567 @@
       "d": "A request made by a network connection to the kernel"
     },
     "answer": "a"
+  },
+   {
+    "question_number": 11,
+    "question": "_______ is a process-to-process protocol that adds only port addresses, checksum error control, and length information to the data from the upper layer.",
+    "options": {
+      "a": "TCP",
+      "b": "UDP",
+      "c": "IP",
+      "d": "None of the above"
+    },
+    "answer": "b",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 12,
+    "question": "The_________ layer is responsible for the delivery of a message from one process to another?",
+    "options": {
+      "a": "physical",
+      "b": "transport",
+      "c": "network",
+      "d": "none of the above"
+    },
+    "answer": "b",
+    "level": null,
+    "mix_choices": false
+  },
+  {
+    "question_number": 13,
+    "question": "To deliver a message to the correct application program running on a host, the _______ address must be consulted.",
+    "options": {
+      "a": "port",
+      "b": "IP",
+      "c": "physical",
+      "d": "None of the above"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 14,
+    "question": "Which of the following services use TCP?",
+    "options": {
+      "a": "DHCP",
+      "b": "SMTP",
+      "c": "FTP",
+      "d": "TFTP"
+    },
+    "answer": "b",
+    "level": 2,
+    "mix_choices": true
+  },
+  {
+    "question_number": 15,
+    "question": "Which of the following layer is responsible for process to process delivery?",
+    "options": {
+      "a": "Transport layer",
+      "b": "Network layer",
+      "c": "Presentation layer",
+      "d": "Data link layer"
+    },
+    "answer": "a",
+    "level": 1,
+    "mix_choices": true
+  },
+  {
+    "question_number": 16,
+    "question": "Which one of the following is a transport layer protocol used in internet?",
+    "options": {
+      "a": "TCP",
+      "b": "UDP",
+      "c": "both (a) and (b)",
+      "d": "none of the mentioned"
+    },
+    "answer": "c",
+    "level": null,
+    "mix_choices": false
+  },
+  {
+    "question_number": 17,
+    "question": "User datagram protocol is called connectionless because:",
+    "options": {
+      "a": "all UDP packets are treated independently by transport layer",
+      "b": "it sends data as a stream of related packets",
+      "c": "both (a) and (b)",
+      "d": "none of the mentioned"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 18,
+    "question": "Transmission control protocol is:",
+    "options": {
+      "a": "connection oriented protocol",
+      "b": "uses a three way handshake to establish a connection",
+      "c": "recievs data from application as a single stream",
+      "d": "all of the mentioned"
+    },
+    "answer": "d",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 19,
+    "question": "An endpoint of an inter-process communication flow across a computer network is called:",
+    "options": {
+      "a": "socket",
+      "b": "pipe",
+      "c": "port",
+      "d": "none of the mentioned"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 20,
+    "question": "Socket-style API for windows is called?",
+    "options": {
+      "a": "wsock",
+      "b": "winsock",
+      "c": "wins",
+      "d": "None of these"
+    },
+    "answer": "b",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 21,
+    "question": "What is the main advantage of UDP?",
+    "options": {
+      "a": "More overload",
+      "b": "Reliable",
+      "c": "Low overhead",
+      "d": "Fast"
+    },
+    "answer": "c",
+    "level": 2,
+    "mix_choices": true
+  },
+  {
+    "question_number": 22,
+    "question": "A _____ is a TCP name for a transport service access point?",
+    "options": {
+      "a": "port",
+      "b": "pipe",
+      "c": "node",
+      "d": "none of the mentioned"
+    },
+    "answer": "a",
+    "level": 1,
+    "mix_choices": false
+  },
+  {
+    "question_number": 23,
+    "question": "Transport layer protocols deals with:",
+    "options": {
+      "a": "application to application communication",
+      "b": "process to process communication",
+      "c": "node to node communication",
+      "d": "none of the mentioned"
+    },
+    "answer": "b",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 24,
+    "question": "Which one of the following is a transport layer protocol?",
+    "options": {
+      "a": "stream control transmission protocol",
+      "b": "internet control message protocol",
+      "c": "neighbor discovery protocol",
+      "d": "dynamic host configuration protocol"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": true
+  },
+  {
+    "question_number": 25,
+    "question": "Which of following provides reliable communication?",
+    "options": {
+      "a": "TCP",
+      "b": "IP",
+      "c": "UDP",
+      "d": "All of the above"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 26,
+    "question": "_______ provides a connection-oriented reliable service for sending messages.?",
+    "options": {
+      "a": "TCP",
+      "b": "IP",
+      "c": "UDP",
+      "d": "All of the above"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 27,
+    "question": "Which of the following protocol is/are defined in Transport layer?",
+    "options": {
+      "a": "FTP",
+      "b": "TCP",
+      "c": "UDP",
+      "d": "both b and c"
+    },
+    "answer": "d",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 28,
+    "question": "What does the port number in a TCP connection specify?",
+    "options": {
+      "a": "It specifies the communication process on the two end systems",
+      "b": "It specifies the quality of the data & connection",
+      "c": "It specify the size of data",
+      "d": "All of the above"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": false
+  },
+  {
+    "question_number": 29,
+    "question": "What is the typical range of Ephemeral ports?",
+    "options": {
+      "a": "1 to 80",
+      "b": "1 to 1024",
+      "c": "80 to 8080",
+      "d": "1024 to 65535"
+    },
+    "answer": "d",
+    "level": 2,
+    "mix_choices": true
+  },
+  {
+    "question_number": 30,
+    "question": "What is the purpose of the PSH flag in the TCP header?",
+    "options": {
+      "a": "Typically used to indicate end of message",
+      "b": "Typically used to indicate beginning of message",
+      "c": "Typically used to push the message",
+      "d": "Typically used to indicate stop the message"
+    },
+    "answer": "a",
+    "level": 2,
+    "mix_choices": true
+  },
+  {
+    "question": "Which is not an application layer protocol?",
+    "options": {
+      "a": "HTTP",
+      "b": "SMTP",
+      "c": "FTP",
+      "d": "TCP"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The packet of information at the application layer is called?",
+    "options": {
+      "a": "Packet",
+      "b": "Message",
+      "c": "Segment",
+      "d": "Frame"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which one of the following is an architecture paradigms?",
+    "options": {
+      "a": "Peer to peer",
+      "b": "Client-server",
+      "c": "Both A & B",
+      "d": "HTTP"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Application developer has permission to decide the following on transport layer side?",
+    "options": {
+      "a": "Transport layer protocol",
+      "b": "Maximum buffer size",
+      "c": "Both A & B",
+      "d": "None of above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Application layer offers service?",
+    "options": {
+      "a": "End to end",
+      "b": "Process to process",
+      "c": "Both A & B",
+      "d": "None of above"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "E-mail is?",
+    "options": {
+      "a": "Loss-tolerant application",
+      "b": "Bandwidth-sensitive application",
+      "c": "Elastic application",
+      "d": "None of above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "FTP is built on architecture?",
+    "options": {
+      "a": "Client-server",
+      "b": "P2P",
+      "c": "Data centric",
+      "d": "Service oriented"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Expansion of FTP is?",
+    "options": {
+      "a": "Fine Transfer Protocol",
+      "b": "File Transfer Protocol",
+      "c": "First Transfer Protocol",
+      "d": "Fast Transfer Protocol"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "To deliver a message to the correct application program running on a host, the address must be consulted?",
+    "options": {
+      "a": "IP",
+      "b": "MAC",
+      "c": "PORT",
+      "d": "None of above"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which is a time-sensitive service?",
+    "options": {
+      "a": "File transfer",
+      "b": "File download",
+      "c": "E-mail",
+      "d": "Internet telephony"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Transport services available to applications in one or another form?",
+    "options": {
+      "a": "Reliable data transfer",
+      "b": "Timing",
+      "c": "Security",
+      "d": "All of Above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Electronic mail uses which Application layer protocol?",
+    "options": {
+      "a": "SMTP",
+      "b": "HTTP",
+      "c": "FTP",
+      "d": "SIP"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "The translates internet domain and host names to IP address?",
+    "options": {
+      "a": "Domain name system",
+      "b": "Routing information protocol",
+      "c": "Network time protocol",
+      "d": "Internet relay chat"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which one of the following allows a user at one site to establish a connection to another site and then pass keystrokes from local host to remote host?",
+    "options": {
+      "a": "HTTP",
+      "b": "FTP",
+      "c": "TELNET",
+      "d": "TCP"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Application layer protocol defines?",
+    "options": {
+      "a": "Types of messages exchanged",
+      "b": "Message format, syntax and semantics",
+      "c": "Rules for when and how processes send and respond to messages",
+      "d": "All of Above"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "The ASCII encoding of binary data is called?",
+    "options": {
+      "a": "Base 64 encoding",
+      "b": "Base 32 encoding",
+      "c": "Base 16 encoding",
+      "d": "Base 8 encoding"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which one of the following protocol delivers/stores mail to receiver server?",
+    "options": {
+      "a": "Simple mail transfer protocol",
+      "b": "Post office protocol",
+      "c": "Internet mail access protocol",
+      "d": "Hypertext transfer protocol"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which one of the following is an internet standard protocol for managing devices on IP network?",
+    "options": {
+      "a": "Dynamic host configuration protocol",
+      "b": "Simple network management protocol",
+      "c": "Internet message access protocol",
+      "d": "Media gateway protocol"
+    },
+    "answer": "b"
+  },
+  {
+    "question": "Which one of the following is not an application layer protocol?",
+    "options": {
+      "a": "media gateway protocol",
+      "b": "dynamic host configuration protocol",
+      "c": "resource reservation protocol",
+      "d": "session initiation protocol"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "When displaying a web page, the application layer uses the?",
+    "options": {
+      "a": "HTTP protocol",
+      "b": "FTP protocol",
+      "c": "SMTP protocol",
+      "d": "TCP protocol"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "SMTP defines _______?",
+    "options": {
+      "a": "message transport",
+      "b": "message encryption",
+      "c": "message content",
+      "d": "message password"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "An email client needs to know the _________ of its initial SMTP server.?",
+    "options": {
+      "a": "IP address",
+      "b": "MAC address",
+      "c": "URL",
+      "d": "NAME"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "Which one of the following protocol is used to receive mail messages?",
+    "options": {
+      "a": "SMTP",
+      "b": "Post Office Protocol (POP)",
+      "c": "Internet Message Access Protocol (IMAP)",
+      "d": "FTP"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "SMTP uses which of the following TCP port?",
+    "options": {
+      "a": "22",
+      "b": "23",
+      "c": "24",
+      "d": "25"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Expansion of SMTP is?",
+    "options": {
+      "a": "Simple Message Transfer Protocol",
+      "b": "Simple Mail Transmission Protocol",
+      "c": "Simple Message Transmission Protocol",
+      "d": "Simple Mail Transfer Protocol"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Pick the odd one out?",
+    "options": {
+      "a": "File transfer",
+      "b": "File download",
+      "c": "E-mail",
+      "d": "Interactive games"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is an application layer service?",
+    "options": {
+      "a": "Network virtual terminal",
+      "b": "File transfer, access, and management",
+      "c": "Mail service",
+      "d": "All of the mentioned"
+    },
+    "answer": "d"
+  },
+  {
+    "question": "SMTP is not used to deliver messages to ______?",
+    "options": {
+      "a": "user’s terminal",
+      "b": "user’s mailbox",
+      "c": "user’s word processor",
+      "d": "user’s email client"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "If you have to send multimedia data over SMTP it has to be encoded into?",
+    "options": {
+      "a": "Binary",
+      "b": "Signal",
+      "c": "ASCII",
+      "d": "Hash"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "File Transfer Protocol (FTP), uses the well-known port 21 is used for the control connection and port 20 for the:",
+    "options": {
+      "a": "Data Rate",
+      "b": "Data Connection",
+      "c": "Data Protocol",
+      "d": "Data Congestion"
+    },
+    "answer": "b"
   }
+
+
 ]

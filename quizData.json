@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the role of an operating system?",
+    "options": {
+      "a": "To provide an interface between the user and the hardware.",
+      "b": "To manage system resources.",
+      "c": "To run applications.",
+      "d": "All of the above."
+    },
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is not a function of an operating system?",
+    "options": {
+      "a": "Memory management",
+      "b": "Device management",
+      "c": "Application development",
+      "d": "File management"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is not a type of operating system?",
+    "options": {
+      "a": "Real-time operating system",
+      "b": "Batch processing system",
+      "c": "Standalone operating system",
+      "d": "Network operating system"
+    },
+    "answer": "c"
+  },
+  {
+    "question": "What is a process in an operating system?",
+    "options": {
+      "a": "A program in execution",
+      "b": "An application in development",
+      "c": "A file on disk",
+      "d": "A device driver"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is multitasking?",
+    "options": {
+      "a": "Running multiple programs at the same time",
+      "b": "Running multiple instances of the same program",
+      "c": "Running multiple threads in a single program",
+      "d": "Running multiple applications on different computers"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a kernel?",
+    "options": {
+      "a": "The core of the operating system",
+      "b": "A graphical user interface",
+      "c": "A command-line interface",
+      "d": "An application programming interface"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is virtual memory?",
+    "options": {
+      "a": "A way for the operating system to manage physical memory",
+      "b": "A way for the operating system to manage disk space",
+      "c": "A way for the operating system to manage CPU time",
+      "d": "A way for the operating system to manage network connections"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a file system?",
+    "options": {
+      "a": "A way for the operating system to manage files on disk",
+      "b": "A way for the operating system to manage memory",
+      "c": "A way for the operating system to manage network connections",
+      "d": "A way for the operating system to manage devices"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a device driver?",
+    "options": {
+      "a": "A program that controls a hardware device",
+      "b": "A program that controls a software application",
+      "c": "A program that controls the kernel",
+      "d": "A program that controls the file system"
+    },
+    "answer": "a"
+  },
+  {
+    "question": "What is a system call?",
+    "options": {
+      "a": "A request made by a user-level program to the operating system kernel",
+      "b": "A request made by the kernel to a user-level program",
+      "c": "A request made by a device driver to the kernel",
+      "d": "A request made by a network connection to the kernel"
+    },
+    "answer": "a"
+  }
+]

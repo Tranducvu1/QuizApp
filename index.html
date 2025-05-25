@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f0f0f0;
+    }
+    .quiz-container {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    .option {
+      margin: 10px 0;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #4CAF50;
+      color: white;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div class="quiz-container">
+    <h2 id="question">Loading question...</h2>
+    <form id="quiz-form">
+      <div class="option">
+        <input type="radio" id="a" name="answer" value="a" />
+        <label for="a" id="a_text">Option A</label>
+      </div>
+      <div class="option">
+        <input type="radio" id="b" name="answer" value="b" />
+        <label for="b" id="b_text">Option B</label>
+      </div>
+      <div class="option">
+        <input type="radio" id="c" name="answer" value="c" />
+        <label for="c" id="c_text">Option C</label>
+      </div>
+      <div class="option">
+        <input type="radio" id="d" name="answer" value="d" />
+        <label for="d" id="d_text">Option D</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+<script>
+  let quizData = [];
+  let currentQuiz = 0;
+  let score = 0;
+
+  fetch('quizData.json')
+    .then(response => response.json())
+    .then(data => {
+      quizData = data;
+      loadQuiz();
+    })
+    .catch(error => {
+      document.getElementById('question').innerText = 'Failed to load quiz data.';
+      console.error('Error loading JSON:', error);
+    });
+
+  function loadQuiz() {
+    deselectAnswers();
+    const currentQuizData = quizData[currentQuiz];
+    document.getElementById('question').innerText = currentQuizData.question;
+    document.getElementById('a_text').innerText = currentQuizData.options.a;
+    document.getElementById('b_text').innerText = currentQuizData.options.b;
+    document.getElementById('c_text').innerText = currentQuizData.options.c;
+    document.getElementById('d_text').innerText = currentQuizData.options.d;
+    document.getElementById('result').innerText = '';
+  }
+
+  function deselectAnswers() {
+    const answers = document.getElementsByName('answer');
+    answers.forEach(answer => answer.checked = false);
+
+    // Reset màu label
+    ['a', 'b', 'c', 'd'].forEach(id => {
+      document.getElementById(`${id}_text`).style.color = 'black';
+    });
+  }
+
+  function getSelected() {
+    const answers = document.getElementsByName('answer');
+    let selected = undefined;
+    answers.forEach(answer => {
+      if (answer.checked) {
+        selected = answer.value;
+      }
+    });
+    return selected;
+  }
+
+  document.getElementById('quiz-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const answer = getSelected();
+    if (!answer) {
+      alert('Please select an answer!');
+      return;
+    }
+
+    const correct = quizData[currentQuiz].answer;
+
+    // Đổi màu câu trả lời
+    if (answer === correct) {
+      document.getElementById(`${answer}_text`).style.color = 'green';
+      score++;
+    } else {
+      document.getElementById(`${answer}_text`).style.color = 'red';
+      document.getElementById(`${correct}_text`).style.color = 'green';
+    }
+
+    // Đợi 1 giây rồi sang câu tiếp theo
+    setTimeout(() => {
+      currentQuiz++;
+      if (currentQuiz < quizData.length) {
+        loadQuiz();
+      } else {
+        document.getElementById('quiz-form').style.display = 'none';
+        document.getElementById('result').innerText =
+          `✅ You answered correctly ${score} out of ${quizData.length} questions.`;
+      }
+    }, 1000);
+  });
+</script>
+
+</body>
+</html>
